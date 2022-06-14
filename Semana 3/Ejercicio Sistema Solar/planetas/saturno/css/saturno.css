@@ -1,0 +1,87 @@
+.main-content {
+  height: max-content;
+  font-family: "Montserrat";
+}
+
+.planet-img {
+  width: 400px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.planet-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.planet-info {
+  display: inline-block;
+  width: 100vw;
+  margin-left: 10px;
+  color: white;
+}
+
+.title {
+  margin: 0px 0px 25px;
+  text-align: center;
+}
+
+.info p {
+  text-align: justify;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.divisor-line {
+  margin: 25px 5px 15px;
+  background-color: white;
+  width: 2px;
+  height: 80vmin;
+  border-radius: 50px;
+}
+
+.satellite-container {
+  margin: 1vh 2vw 1vh;
+  width: 50vw;
+  height: 17.5vh;
+  border-radius: 5px;
+  display: flex;
+}
+
+.satellite-container:hover {
+  background-color: rgb(21, 21, 21);
+  transition: 400ms;
+}
+
+.satellites-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.satellite-img {
+  border-radius: 5px;
+  width: 13vw;
+  height: 20vh;
+  margin: 3vh 2vw 0vh;
+}
+
+.satellite-divisor-line {
+  width: 95%;
+  height: 0.5%;
+  background-color: white;
+}
+
+.satellite-text {
+  text-align: justify;
+  margin-right: 2vw;
+}
+
+footer {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  padding: 1vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
