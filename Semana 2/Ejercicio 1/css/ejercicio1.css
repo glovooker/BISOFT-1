@@ -1,0 +1,59 @@
+table {
+  margin: 0 auto;
+  border-spacing: 10px;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+.skin-color {
+  background-color: #feedd8;
+}
+
+.red {
+  background-color: #ff2c13;
+}
+
+.blue {
+  background-color: #2a1ef8;
+}
+
+.black {
+  background-color: black;
+}
+
+.soft-blue {
+  background-color: #3c6de6;
+}
+
+.dark-red {
+  background-color: #af3528;
+}
+
+.light-blue {
+  background-color: #01e7ff;
+}
+
+.green {
+  background-color: #277f57;
+}
+
+.purple {
+  background-color: #693d9c;
+}
+
+.light-yellow {
+  background-color: #fff206;
+}
+
+.yellow {
+  background-color: #ffcf00;
+}
+
+.soft-red {
+  background-color: #ef2c3a;
+}
+
+/* Made with love by Gabriel Lobo */

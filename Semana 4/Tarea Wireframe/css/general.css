@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+header {
+  background: #222222;
+  padding: 15px 20px 15px 50px;
+}
+
+#navegacion-principal {
+  display: flow-root;
+}
+
+#navegacion-principal a {
+  color: #999999;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+#navegacion-principal a:hover {
+  color: #efac43;
+}
+
+.flotar-izquierda {
+  float: left;
+}
+
+.flotar-derecha {
+  float: right;
+}
+
+.fondo-negro {
+  background: #000;
+}
+
+.img-banner {
+  background-image: url(../imgs/gym-banner.jpg);
+  background-size: cover;
+  background-position-y: center;
+  height: 500px;
+  margin-bottom: 25px;
+}
+
+#banner_inicio {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#banner_inicio h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#banner_inicio p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#banner_inicio button {
+  background: #efac43;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border: 0px;
+}
+
+#banner_inicio button:hover {
+  background: #f39c12;
+}
+
+#beneficios {
+  display: flow-root;
+}
+
+#beneficios .img-beneficios {
+  background-image: url("../imgs/beneficios.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 40%;
+}
+
+#beneficios .lista-beneficios {
+  box-sizing: border-box;
+  padding: 50px;
+  min-height: 600px;
+  position: relative;
+  width: 60%;
+}
+
+#beneficios .lista-beneficios h2 {
+  color: #efac43;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#beneficios .lista-beneficios li {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+#beneficios .lista-beneficios .cuadro-decoracion {
+  background: #efac43;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+}
+
+#beneficios .lista-beneficios .primer-cuadro {
+  bottom: 80px;
+  right: 0;
+}
+
+#beneficios .lista-beneficios .segundo-cuadro {
+  bottom: 40px;
+  right: 40px;
+}
+
+#beneficios .lista-beneficios .tercer-cuadro {
+  bottom: 0;
+  right: 0;
+}
+
+/* Made with love by Gabriel Lobo */

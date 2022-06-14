@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38a85d6a08.js" crossorigin="anonymous"></script>
+    <title>Ejercicio Formulario</title>
+</head>
+
+<body>
+    <h1 class="title">Reservación de Hotel</h1>
+    <form class="form">
+        <div class="container">
+            <label for="name">Nombre *</label>
+            <input type="text" name="name">
+            <div class="lastNames">
+                <div class="firstLastName">
+                    <label for="lastName1">Primer Apellido *</label>
+                    <input type="text" name="lastName1">
+                </div>
+                <div class="secondLastName">
+                    <label for="lastName2">Segundo Apellido *</label>
+                    <input type="text" name="lastName2">
+                </div>
+            </div>
+            <label for="email"><i class="fa-solid fa-envelope"></i>Email *</label>
+            <input type="email" name="email" placeholder="example@email.com">
+            <div class="billing">
+                <input type="checkbox" id="billing" name="billing" value="yes">
+                <label for="billing"> Enviar factura electrónica al correo.</label>
+            </div>
+            <div class="roomTypeContainer">
+                <label for="roomType"><i class="fa-solid fa-door-closed"></i>Habitación *</label>
+                <select name="roomType" id="roomType" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="standard">Standard (1 a 2 Personas)</option>
+                    <option value="familiar">Familiar (1 a 4 Personas)</option>
+                    <option value="privado">Privado (1 a 3 Personas)</option>
+                    <option value="mixto">Dormitorio Mixto (6 Personas)</option>
+                    <option value="masculino">Dormitorio Masculino (6 Personas)</option>
+                    <option value="femenino">Dormitorio Femenino (6 Personas)</option>
+                </select>
+            </div>
+            <div class="guestsContainer">
+                <label for="guests"><i class="fa-solid fa-people-roof"></i>Cantidad de Adultos *</label>
+                <input type="number" name="guests">
+            </div>
+            <div class="guestsContainer">
+                <label for="guests"><i class="fa-solid fa-child-reaching"></i>Cantidad de Niños *</label>
+                <input type="number" name="guests">
+            </div>
+            <div class="guestsContainer">
+                <label for="guests"><i class="fa-solid fa-paw"></i>Cantidad de Mascotas *</label>
+                <input type="number" name="guests">
+            </div>
+            <div class="arrivalDate">
+                <label for="dateArrival"><i class="fa-solid fa-calendar-plus"></i>Fecha de Llegada *</label>
+                <input type="date" name="dateArrival" class="date">
+                <input type="text" name="dateArrival" class="hour" placeholder="HH:MM">
+            </div>
+            <div class="departureDate">
+                <label for="dateArrival"><i class="fa-solid fa-calendar-minus"></i>Fecha de Salida *</label>
+                <input type="date" name="dateArrival" class="date">
+                <input type="text" name="dateArrival" class="hour" placeholder="HH:MM">
+            </div>
+            <div class="couples">
+                <input type="checkbox" id="couples" name="couples" value="yes">
+                <label for="couples"> ¿Desea servicio por Luna de Miel?</label>
+            </div>
+            <div class="pickup">
+                <label for="pickup"><i class="fa-solid fa-clock"></i>Pickup *</label>
+                <div class="pickupOptions">
+                    <div class="firstOption">
+                        <input type="radio" id="yes" name="pickup" value="yes">
+                        <label for="yes">Sí, por favor</label>
+                    </div>
+                    <div class="secondOption">
+                        <input type="radio" id="no" name="pickup" value="no">
+                        <label for="no">No, llegaremos por nuestros propios medios</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="reset">Reiniciar</button>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
+
+<!-- Made with love by Gabriel Lobo -->

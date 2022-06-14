@@ -1,0 +1,75 @@
+table {
+  border-spacing: 0px;
+  margin: 0 auto;
+}
+
+td {
+  width: 50px;
+  height: 100px;
+}
+
+.light-skin {
+  background-color: #feedd8;
+}
+
+.skin-color {
+  background-color: #fee6c2;
+}
+
+.dark-skin {
+  background-color: #d5b68a;
+}
+
+.red {
+  background-color: #ff220f;
+}
+
+.blue {
+  background-color: #3c6de6;
+}
+
+.soft-blue {
+  background-color: #3c6de6;
+}
+
+.dark-green {
+  background-color: #037482;
+}
+
+.light-blue {
+  background-color: #01e7ff;
+}
+
+.green {
+  background-color: #277f57;
+}
+
+.purple {
+  background-color: #693d9c;
+}
+
+.light-gray {
+  background-color: #effdfe;
+}
+
+.yellow {
+  background-color: #f2e388;
+}
+
+.soft-red {
+  background-color: #ef2c3a;
+}
+
+.pink {
+  background-color: #fe38ff;
+}
+
+.light-pink {
+  background-color: #f493f0;
+}
+
+.soft-green {
+  background-color: #5797a1;
+}
+
+/* Made with love by Gabriel Lobo */
