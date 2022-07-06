@@ -1,0 +1,64 @@
+.formulario {
+  margin: 0 auto;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.formulario .contenedor-input {
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  display: inline-block;
+  height: 45px;
+  width: 150px;
+}
+
+.formulario input {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  height: 45px;
+  width: 300px;
+}
+
+.formulario select {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  height: 45px;
+  text-align: center;
+  width: 300px;
+}
+
+.formulario button {
+  background: #00489b;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #fff;
+  height: 45px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+.formulario button:hover {
+  background: #1373e0;
+}
+
+.formulario hr {
+  margin-bottom: 20px;
+}
+
+.formulario output {
+  border: 2px solid #000;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  height: 45px;
+  width: 300px;
+}
+
+/* Made with love by Gabriel Lobo */
