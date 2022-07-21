@@ -12,3 +12,5 @@ const turnBulbOff = () => {
 
 buttonBulbOff.addEventListener("click", turnBulbOff);
 buttonBulbOn.addEventListener("click", turnBulbOn);
+
+// Made with love by Gabriel Lobo <3
