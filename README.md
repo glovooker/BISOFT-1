@@ -1,5 +1,5 @@
 # 💠Software Project I Course Source Code💠
-## 📚Code from the Object Oriented Programming Course at Universidad Cenfotec💻 
+## 📚Code from the Software Project I Course at Universidad Cenfotec💻 
  
 ### 👨🏻‍🏫Instructors:
 - Dr. Luis Naranjo
